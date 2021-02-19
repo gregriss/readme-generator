@@ -46,7 +46,7 @@ function askInitialQuestions() {
         {
             type: "input",
             message: "Which license would you like to use?",
-            choices: ["Apache 2.0","Boost 1.0","Eclipse Public License 1.0","IBM Public License 1.0","MIT License", "Mozilla Public License 2.0"],
+            choices: ["Apache 2.0","Boost 1.0","ISC License","BSD 3-Clause License","MIT License"],
             name: "license"
         },
         {
