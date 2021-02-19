@@ -3,13 +3,21 @@ Command Line app to create README files
 
 ## Description
 
+This application allows the user to quickly create a README file for their project using only the command line to answer prompts with their info. When all questions are completed, the application will produce a markdown file with the data the user has entered.
+
 ## Table of Contents
 
 [Installation](#installation)
 [Usage](#usage)
+[License](#license)
+[Contributing](#contributing)
+[Tests](#tests)
+[Questions](#questions)
 [Credits](#credits)
 
 ## Installation
+
+-None- 
 
 ## Usage
 

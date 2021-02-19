@@ -44,9 +44,9 @@ function askInitialQuestions() {
             name: "usage"
         },
         {
-            type: "input",
+            type: "list",
             message: "Which license would you like to use?",
-            choices: ["Apache 2.0","Boost 1.0","ISC License","BSD 3-Clause License","MIT License"],
+            choices: ["Apache 2.0","Boost 1.0","ISC","BSD 3-Clause","MIT"],
             name: "license"
         },
         {
@@ -74,7 +74,7 @@ function askInitialQuestions() {
         const { q1, col1, q2, col2 } = responses;
         console.log(responses);
         // columnout = `"${col1}", "${col2}"\n`;
-        console.log(columnout);
+        // console.log(columnout);
 
         let userQuestionsArr = [];
 
