@@ -11,36 +11,69 @@ function UserQuestion(question, dataName) {
     this.name = dataName;
 };
 
-let columnout;
+// let columnout;
 let fileData = "";
 
+
+// WHEN I am prompted for information about my application repository
+// THEN a high-quality, professional README.md is generated with the title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
+// WHEN I enter my project title
+// THEN this is displayed as the title of the README
+// WHEN I enter a description, installation instructions, usage information, contribution guidelines, and test instructions
+// THEN this information is added to the sections of the README entitled Description, Installation, Usage, Contributing, and Tests
 function askInitialQuestions() {
     inquirer.prompt([
         {
             type: "input",
-            message: "",
-            name: "q1"
+            message: "What is your project title?",
+            name: "title"
         },
         {
             type: "input",
-            message: "",
-            name: "col1"
+            message: "What is your project description?",
+            name: "description"
         },
         {
             type: "input",
-            mesasge: "",
-            name: "q2"
+            message: "What are your instructions for installation?",
+            name: "installation"
         },
         {
             type: "input",
-            message: "",
-            name: "col2"
+            message: "What are your instructions for usage?",
+            name: "usage"
+        },
+        {
+            type: "input",
+            message: "Which license would you like to use?",
+            choices: ["Apache 2.0","Boost 1.0","Eclipse Public License 1.0","IBM Public License 1.0","MIT License", "Mozilla Public License 2.0"],
+            name: "license"
+        },
+        {
+            type: "input",
+            message: "What contributing guidelines would you like to include?",
+            name: "contributing"
+        },
+        {
+            type: "input",
+            message: "What are your test instructions?",
+            name: "tests"
+        },
+        {
+            type: "input",
+            message: "What is your GitHub username?",
+            name: "username"
+        },
+        {
+            type: "input",
+            message: "What is your email address?",
+            name: "email"
         }
 
     ]).then(responses => {
         const { q1, col1, q2, col2 } = responses;
         console.log(responses);
-        columnout = `"${col1}", "${col2}"\n`;
+        // columnout = `"${col1}", "${col2}"\n`;
         console.log(columnout);
 
         let userQuestionsArr = [];
