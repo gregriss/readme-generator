@@ -8,12 +8,12 @@ This application allows the user to quickly create a README file for their proje
 
 ## Table of Contents
 
-[Installation](#installation)
-[Usage](#usage)
-[License](#license)
-[Contributing](#contributing)
-[Tests](#tests)
-[Questions](#questions)
+[Installation](#installation)  
+[Usage](#usage)  
+[License](#license)  
+[Contributing](#contributing)  
+[Tests](#tests)  
+[Questions](#questions)  
 [Credits](#credits)
 
 ## Installation
@@ -56,8 +56,7 @@ SOFTWARE.
 
 Feel free to reach out to me with any questions.
 
-GitHub: [Greg's GitHub](https://github.com/gregriss) 
-Email: [Greg's Email](gregriss23@gmail.com)
+GitHub: [Greg's GitHub](https://github.com/gregriss)  
+ Email: [Greg's Email](gregriss23@gmail.com)
 
-## Credits
 
