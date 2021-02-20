@@ -1,5 +1,6 @@
 # readme-generator
-Command Line app to create README files 
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
 
@@ -26,7 +27,6 @@ I've created a video explaining how to use this application which can be found a
 ## License 
 
 MIT License
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Copyright (c) 2021 Greg Riss
 
