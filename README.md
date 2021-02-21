@@ -18,7 +18,7 @@ This application allows the user to quickly create a README file for their proje
 
 ## Installation
 
--None- 
+This app runs in the command line of a terminal interface, so git bash, Terminal, or VS Code (with Integrated Terminal) is required. Node.js (available for free download here: https://nodejs.org/en/) with the inquirer package installed (using the command "npm install inquirer") is also needed. 
 
 ## Usage
 
@@ -48,15 +48,9 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-## Contributing
-
-## Tests
-
 ## Questions
 
 Feel free to reach out to me with any questions.
 
 GitHub: [Greg's GitHub](https://github.com/gregriss)  
 Email: [Greg's Email](gregriss23@gmail.com)
-
-
