@@ -1,10 +1,10 @@
-# title
+# Project Title
 
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ## Description
 
-  descr
+  Project Description
 
   ## Table of Contents
 
@@ -17,19 +17,19 @@
 
   ## Installation
 
-  install
+  Installation Instructions Here
 
   ## Usage
 
-  use
+  Usage Instructions Here
 
   ## Contributing
 
-  guidelines here
+  Contributing Guidelines Here
 
   ## Tests
 
-  instructions
+  Test Instructions Here
 
   ## License
 
@@ -42,11 +42,11 @@
 
   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-  https://opensource.org/licenses/MIT
+  Link to License: https://opensource.org/licenses/MIT
 
   ## Questions
 
   If you have any questions, feel free to reach out to me.
 
-  GitHub profile: https://github.com/huserName
-  Email: addresss
+  GitHub profile: https://github.com/userName
+  Email: email@email.com

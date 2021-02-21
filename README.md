@@ -20,7 +20,7 @@ This app runs in the command line of a terminal interface, so git bash, Terminal
 
 ## Usage
 
-I've created a video explaining how to use this application which can be found at this link: 
+I've created a video demonstrating how to use this application which can be found at this link: https://drive.google.com/file/d/1xP4jH60-WIVsdLX6hx2jLqjLRGhPft0a/view?usp=sharing
 
 ## License 
 

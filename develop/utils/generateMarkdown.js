@@ -19,22 +19,6 @@ function renderLicenseBadge(license) {
   else if ( license === "MIT" ) {
     return "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)"
   }
-  // listing .md syntax/badge links for 5 license choices
-
-  // Apache
-  // [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-
-  // Boost
-  // [![License](https://img.shields.io/badge/License-Boost%201.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)
-
-  // BSD
-  // [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
-
-  // ISC 
-  // [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
-
-  // MIT
-  // [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 };
 
 // TODO: Create a function that returns the license link
@@ -164,7 +148,7 @@ const generateMarkdown = (data) =>
   Link to License: ${renderLicenseLink(data.license, data)}\n
   ## Questions\n
   If you have any questions, feel free to reach out to me.\n
-  GitHub profile: https://github.com/${data.username}
+  GitHub profile: https://github.com/${data.username}\n
   Email: ${data.email}`;
 
 
