@@ -62,7 +62,12 @@ function init() {
                 },
                 {
                     type: "input",
-                    message: "What is your GitHub username?",
+                    message: "What is your full name? This will be listed in your license.",
+                    name: "fullName"
+                },
+                {
+                    type: "input",
+                    message: "What is your GitHub username (case-sensitive)?",
                     name: "username"
                 },
                 {

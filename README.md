@@ -4,17 +4,15 @@
 
 ## Description
 
-This application allows the user to quickly create a README file for their project using only the command line to answer prompts with their info. When all questions are completed, the application will produce a markdown (README.md) file with the data the user has entered.
+This application allows the user to quickly create a README file for their project using **only** the command line to answer prompts with their info. When all questions are completed, the application will produce a markdown (README.md) file (including a license badge!) with the data the user has entered.
 
 ## Table of Contents
 
 [Installation](#installation)  
 [Usage](#usage)  
-[License](#license)  
-[Contributing](#contributing)  
-[Tests](#tests)  
-[Questions](#questions)  
-[Credits](#credits)
+[License](#license)        
+[Credits](#credits)  
+[Questions](#questions)
 
 ## Installation
 
@@ -48,9 +46,17 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
+## Credits 
+
+I created this project with help from several sources, listed below:  
+*Node.js* documentation: https://nodejs.org/en/docs/  
+*NPM Inquirer* documentation: https://www.npmjs.com/package/inquirer  
+*Inquirer* Package examples: https://github.com/SBoudrias/Inquirer.js/tree/master/packages/inquirer/examples  
+Markdown syntax guide: https://www.markdownguide.org/basic-syntax/
+
 ## Questions
 
 Feel free to reach out to me with any questions.
 
-GitHub: [Greg's GitHub](https://github.com/gregriss)  
-Email: [Greg's Email](gregriss23@gmail.com)
+**GitHub**: [Greg's GitHub](https://github.com/gregriss)  
+**Email**: [Greg's Email](gregriss23@gmail.com)

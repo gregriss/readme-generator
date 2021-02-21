@@ -82,7 +82,7 @@ function renderLicenseSection(license, data) {
     return "";
   }
   else if ( license === "Apache 2.0" ) {
-    return `Copyright ${new Date().getFullYear} ${data.username}
+    return `Copyright ${new Date().getFullYear()} ${data.fullName}
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -96,7 +96,7 @@ function renderLicenseSection(license, data) {
     See the License for the specific language governing permissions and
     limitations under the License.`;
   }
-  else if ( license === "Boost" ) {
+  else if ( license === "Boost 1.0" ) {
     return `  Boost Software License - Version 1.0 - August 17th, 2003
 
     Permission is hereby granted, free of charge, to any person or organization
@@ -122,14 +122,14 @@ function renderLicenseSection(license, data) {
     DEALINGS IN THE SOFTWARE.`
   }
   else if ( license === "ISC" ) {
-    return `Copyright ${new Date().getFullYear} ${data.username}
+    return `Copyright ${new Date().getFullYear()} ${data.fullName}
 
     Permission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted, provided that the above copyright notice and this permission notice appear in all copies.
   
     THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.`
   }
   else if ( license === "BSD 3-Clause" ) {
-    return `//   Copyright ${new Date().getFullYear} ${data.username}
+    return `//   Copyright ${new Date().getFullYear()} ${data.fullName}
 
     // Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
   
@@ -142,8 +142,8 @@ function renderLicenseSection(license, data) {
     // THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. `
   }
   else if ( license === "MIT" ) {
-    let licenseText = `"MIT License" 
-    Copyright ${new Date().getFullYear} ${data.username}
+    return `"MIT License" 
+    Copyright ${new Date().getFullYear()} ${data.fullName}
 
   Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
@@ -170,9 +170,9 @@ const generateMarkdown = (data) =>
   ## License\n
   ${renderLicenseSection(data.license, data)}\n
   ## Questions\n
-  If you have any questions, feel free to reach out to me.
+  If you have any questions, feel free to reach out to me.\n
   GitHub profile: https://github.com/${data.username}
-  Email: ${data.email} `;
+  Email: ${data.email}`;
 
 
 module.exports = generateMarkdown;
