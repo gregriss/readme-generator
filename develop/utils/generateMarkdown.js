@@ -39,7 +39,7 @@ function renderLicenseBadge(license) {
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) {
+function renderLicenseLink(license, data) {
   if ( license === "None") {
     return "";
   }
@@ -58,21 +58,6 @@ function renderLicenseLink(license) {
   else if ( license === "MIT" ) {
     return "https://opensource.org/licenses/MIT"
   }
-  // listing links to license text
-  // Apache
-  // https://opensource.org/licenses/Apache-2.0
-
-  // Boost
-  // https://www.boost.org/LICENSE_1_0.txt
-
-  // BSD 
-  // https://opensource.org/licenses/BSD-3-Clause
-
-  // ISC
-  // https://opensource.org/licenses/ISC
-
-  // MIT
-  // https://opensource.org/licenses/MIT
 };
 
 // TODO: Create a function that returns the license section of README
@@ -176,6 +161,7 @@ const generateMarkdown = (data) =>
   ${data.tests}\n
   ## License\n
   ${renderLicenseSection(data.license, data)}\n
+  Link to License: ${renderLicenseLink(data.license, data)}\n
   ## Questions\n
   If you have any questions, feel free to reach out to me.\n
   GitHub profile: https://github.com/${data.username}
