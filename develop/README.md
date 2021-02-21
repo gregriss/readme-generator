@@ -30,7 +30,7 @@
 
   ## Contributing
 
-  Contribution Guidelines here
+  Contribution Guidelines Here
 
   ## Tests
 
