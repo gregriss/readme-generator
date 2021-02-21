@@ -23,7 +23,13 @@ This app runs in the command line of a terminal interface, so git bash, Terminal
 I've created a video demonstrating how to use this application which can be found at this link: https://drive.google.com/file/d/1c0atWuq8UzqA4vgMXr_AFJyZ9FLzLvwx/view
 
 The command to initiate the app looks like this:
-[bash-init-command](assets/images/bash-init-command.png)
+![bash-init-command](assets/images/bash-init-command.png)
+
+Then, while you are answering prompts, the app will appear like this:
+![prompts-in-progress](assets/images/prompts-in-progress.png)
+
+Upon completing all prompts, you will receive a message saying README Written, indicating your file has been created.
+![readme-written](assets/images/readme-written.png)
 
 ## License 
 
