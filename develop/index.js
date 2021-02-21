@@ -29,6 +29,12 @@ function init() {
                     type: "input",
                     message: "What is your project title?",
                     name: "title"
+                    // validate: function(answer) {
+                    //     if (answer.length < 1) {
+                    //         console.log("Please enter a Title")
+                    //     } else {
+                    //         return true;
+                    //     }
                 },
                 {
                     type: "input",
@@ -72,18 +78,17 @@ function init() {
                     name: "email"
                 }
         
-            ]).then(responses => {
+            ]).then(response => {
                 // const { q1, col1, q2, col2 } = responses;
-                console.log(responses);
+                console.log(response);
                 fs.writeFile("README.md", `${generateMarkdown(response)}`, "utf8", err => {
-                    err ? console.error(err) : console.log("README Written");
+                    err ? console.error(err) : console.log("README Written")
                 });
                 // columnout = `"${col1}", "${col2}"\n`;
                 // console.log(columnout);
                 // let userQuestionsArr = [];
                 // userQuestionsArr.push(new UserQuestion(q1, "data1"));
                 // userQuestionsArr.push(new UserQuestion(q2, "data2"));
-        
                 // askUserQuestions(userQuestionsArr);
             });
 }
@@ -184,19 +189,16 @@ function init() {
 //                 askUserQuestions(userQuestionsArr)
 //             }
 //         });
-
 // }
 
 // TODO: Create a function to write README file
-function writeReadme(fileName, data) {
-    fs.writeFile("README.md", responses, "utf8", err => {
-        err ? console.error(err) : console.log("README Written");
-    });
-}
-
+// function writeReadme(fileName, data) {
+//     //                         was responses
+//     fs.writeFile("README.md", data, err => err ? console.error(err) : console.log("README Written");
+    
+// }
 // function call to ask questions to app user
 // askInitialQuestions();
-
 
 // Function call to initialize app
 init();

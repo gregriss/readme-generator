@@ -57,6 +57,6 @@ SOFTWARE.
 Feel free to reach out to me with any questions.
 
 GitHub: [Greg's GitHub](https://github.com/gregriss)  
- Email: [Greg's Email](gregriss23@gmail.com)
+Email: [Greg's Email](gregriss23@gmail.com)
 
 
