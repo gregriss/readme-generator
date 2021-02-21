@@ -1,31 +1,36 @@
-# Project Title
+# My Title
 
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ## Description
 
-  Project Description
+  Description of Project
 
   ## Table of Contents
 
-  [Installation](#installation)  
-  [Usage](#usage)  
-  [Contributing](#contributing)  
-  [Tests](#tests)  
+  [Installation](#installation)
+  
+  [Usage](#usage)
+  
+  [Contributing](#contributing)
+  
+  [Tests](#tests)
+  
   [License](#license)
+
   [Questions](#questions)
 
   ## Installation
 
-  Installation Instructions Here
+  Installation Info
 
   ## Usage
 
-  Usage Instructions Here
+  Usage Info
 
   ## Contributing
 
-  Contributing Guidelines Here
+  Contribution Guidelines here
 
   ## Tests
 
@@ -49,4 +54,5 @@
   If you have any questions, feel free to reach out to me.
 
   GitHub profile: https://github.com/userName
+
   Email: email@email.com
